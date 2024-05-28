@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhennyfer Dayane - Psicologia Clínica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #357ABD;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .portfolio, .testimonials, .contact {
+            margin: 20px 0;
+        }
+        .portfolio img, .testimonials img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact form button:hover {
+            background-color: #357ABD;
+        }
+        footer {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jhennyfer Dayane</h1>
+        <p>Psicologia Clínica</p>
+    </header>
+    <nav>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#testimonials">Depoimentos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="portfolio" class="portfolio">
+            <h2 class="section-title">Portfólio</h2>
+            <p>Confira alguns dos meus trabalhos e artigos na área de psicologia clínica.</p>
+            <img src="portfolio1.jpg" alt="Imagem do portfólio">
+            <img src="portfolio2.jpg" alt="Imagem do portfólio">
+            <!-- Adicione mais imagens conforme necessário -->
+        </section>
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">Depoimentos</h2>
+            <p>Veja o que os meus pacientes dizem sobre o meu trabalho.</p>
+            <img src="testimonial1.jpg" alt="Imagem de depoimento">
+            <img src="testimonial2.jpg" alt="Imagem de depoimento">
+            <!-- Adicione mais imagens conforme necessário -->
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contato</h2>
+            <p>Entre em contato para agendar uma consulta ou para mais informações.</p>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Ou me envie uma mensagem diretamente no <a href="https://wa.me/seunumerodetelefone" target="_blank">WhatsApp</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jhennyfer Dayane - Psicologia Clínica</p>
+    </footer>
+</body>
+</html>
